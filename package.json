@@ -1,0 +1,37 @@
+{
+  "name": "w5-newsapi-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon --inspect app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zascha/FMP-NewsAPI-Express-MongoDB.git"
+  },
+  "author": "Aliaksandra_Zakharava@epam.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zascha/FMP-NewsAPI-Express-MongoDB/issues"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/*"
+    ]
+  },
+  "homepage": "https://github.com/Zascha/FMP-NewsAPI-Express-MongoDB#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.7.13",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.2.1"
+  }
+}
